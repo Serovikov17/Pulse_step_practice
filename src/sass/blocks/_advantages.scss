@@ -36,4 +36,25 @@
             display: none;
         }
     }
+    &__icon {
+        &_cup {
+            animation: swinging 2s ease infinite;;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
+        &_step {
+            animation: shake .7s linear alternate infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
