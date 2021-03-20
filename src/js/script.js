@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $('.carousel__inner').slick({
         speed: 1200,
         adaptiveHeight: true,
@@ -8,8 +9,8 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    dots: true,
-                    arrows: false
+                    dots: false,
+                    arrows: true,
                 }
             }
         ]
