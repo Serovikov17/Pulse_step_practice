@@ -10,10 +10,12 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                     dots: false,
-                    arrows: true,
+                    arrows: false,
                 }
-            }
+            },
         ]
+        
+
     });
 
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
